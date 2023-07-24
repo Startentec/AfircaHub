@@ -1,0 +1,71 @@
+/* .resachfgf{
+   display: flex;
+   flex-direction: row;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+
+} */
+
+.sub-mainyl {
+   display: flex;
+   float: 1;
+   flex-direction: column;
+   justify-content: center;
+   height: fit-content;
+   width:fit-content;
+   box-shadow: 1px 1px 2px 2px rgb(207, 207, 207);
+   padding: 0px 0px 0px 0px;
+   border-radius: 10px; 
+   background-color: white;
+   
+}
+
+.imgsyl {
+   display: flex;
+   justify-content: center;
+   padding: 0px;
+   margin: 0px; 
+ }
+.container-imageyl {
+ border-radius: 150px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ height: 115px;
+ width: 90px;
+ padding: 0px;
+ margin: 0px; 
+}
+.profileyl {
+ height: 65px;
+ border-radius: 130px;
+
+} 
+.jinaCheo{
+   padding-top: 30px;
+   /* padding-bottom: 15px; */
+   
+}
+.somes{
+   margin: 0px 20px 0px 20px;
+}
+.revsco{
+   margin: 0px 20px 0px 20px;
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+}
+.sachinput{
+   width: 100%; 
+  height: 40px; 
+  border: none ;
+   border-bottom: 2px solid; 
+  border-color: black; 
+   outline: none;
+   background: transparent;
+   color: black;
+}
+.resach{
+   margin-bottom: 20px;
+}

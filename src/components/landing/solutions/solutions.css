@@ -1,0 +1,140 @@
+
+
+.testimonials {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+  /* @include mobile{
+    justify-content: space-around;
+  } */
+
+
+  h1 {
+    font-size: 50px;
+
+    /* @include mobile{
+      font-size: 20px;
+    } */
+  }
+
+  .container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+    /* @include mobile{
+      flex-direction: column;
+      height: 100%;
+    } */
+
+    .card {
+      background-position: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 400px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      transition: all 1s ease;
+      color: white;
+    }
+    #c3{background-image:url(../assets/frame-127-1.png);}
+    #c2{background-image: url("https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");}
+    #c1{background-image: url("https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");}
+    /* @include mobile{
+        height: 180px;
+        margin: 10px 0;
+      } */
+
+       .featured{
+          width: 300px;
+          height: 80%;
+          margin: 0 30px;
+       }
+
+          /* @include mobile{
+            width: 250px;
+            height: 180px;
+            margin: 1px;
+          } */
+      
+
+      /* &:hover{
+          transform: scale(1.1);
+      } */
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      
+        .user {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 30px;
+        }
+
+          /*  @include mobile{
+              width: 30px;
+              height: 30px;
+            } */
+        
+      .center {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(250, 244, 245);
+
+        /* @include mobile{
+          font-size: 12px;
+          padding: 5px;
+        } */
+      }
+      .bottom {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: baseline;
+      }
+
+      .panga{
+        display: flex;
+        align-items: baseline; 
+        flex-direction: column;
+        
+        /* position: relative; */
+      }
+
+        h3 {
+          margin-bottom: 5px;
+
+          /* @include mobile{
+            font-size: 14px;
+          } */
+        }
+        h4{
+            color: rgb(121, 115, 115);
+            /* @include mobile{
+              font-size: 13px;
+            } */
+        }
+        .quote{
+          height: 20px;
+        }

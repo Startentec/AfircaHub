@@ -1,0 +1,147 @@
+.testimonials {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 40px;
+ }
+ 
+   /* @include mobile{
+     justify-content: space-around;
+   } */
+ 
+ 
+   h1 {
+     font-size: 50px;
+ 
+     /* @include mobile{
+       font-size: 20px;
+     } */
+   }
+ 
+   .container {
+     width: 100%;
+     height: 80%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-top: 30px;
+     padding-bottom: 40px;
+   }
+ 
+     /* @include mobile{
+       flex-direction: column;
+       height: 100%;
+     } */
+ .shikilia{
+   /* width: 100%; */
+   padding: 50px;
+   margin-bottom: 50px;
+   
+ }
+     div.card1 {
+       background-position: center;
+       margin-left: 10px;
+       margin-right: 10px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       width: 300px !important; 
+       height: 350px !important;
+       border-radius: 10px;
+       box-shadow: 0px 0px 15px -8px black;
+       display: flex;
+       flex-direction: column;
+       /* justify-content: flex-start !important; */
+       /* align-content: flex-end  !important; */
+       padding: 20px;
+       transition: all 1s ease;
+       color: white;
+     }
+     #c3{background-image:url(../assets/frame-127-1.png);}
+     #c2{background-image: url(../assets/frame-13-1.png);}
+     #c1{background-image: url(../assets/frame-15-1.png);}
+     /* @include mobile{
+         height: 180px;
+         margin: 10px 0;
+       } */
+ 
+        .featured{
+           width: 300px;
+           height: 80%;
+           margin: 0 30px;
+        }
+ 
+           /* @include mobile{
+             width: 250px;
+             height: 180px;
+             margin: 1px;
+           } */
+       
+ 
+       /* &:hover{
+           transform: scale(1.1);
+       } */
+ 
+       .top {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 60px;
+       }
+ 
+       
+         .user {
+             height: 60px;
+             width: 60px;
+             border-radius: 50%;
+             object-fit: cover;
+             margin: 0 30px;
+         }
+ 
+           /*  @include mobile{
+               width: 30px;
+               height: 30px;
+             } */
+         
+       .center {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 60px;
+         border-radius: 10px;
+         background-color: rgba(0, 0, 0, 0);
+ 
+         /* @include mobile{
+           font-size: 12px;
+           padding: 5px;
+         } */
+       }
+       .bottom1 {
+         display: flex;
+         /* align-items: le; */
+         flex-direction: column;
+         justify-content: left;
+         
+       }
+ 
+       .panga1{
+         display: flex;
+         /* align-items: baseline;  */
+         flex-direction: column;
+         justify-content: flex-end;
+         padding-left: 40px;
+         
+         /* position: relative; */
+       }
+ 
+         .quote{
+           height: 20px;
+         }
+         .butst{
+            width: 150px;
+            height: 40px;
+            background-color: rgb(241, 21, 21);
+            border-radius: 10px;
+            color: white;
+            border: none;
+         }

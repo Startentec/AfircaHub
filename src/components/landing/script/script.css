@@ -1,0 +1,22 @@
+.skript{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: black;
+   padding: 30px;
+   background-image: url("../assets/frame-16-1.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.skript-t{
+   /* margin-left: 250px;
+   margin-right: 250px; */
+   margin-bottom: 100px;
+   color: white;
+   width:70%;
+
+}
+.quot{
+   height: 72px;
+}

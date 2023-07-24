@@ -1,0 +1,20 @@
+.skript1{
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+   background-color: black;
+   padding: 70px;
+   background-image: url(../assets/frame-10-1.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 350px;
+}
+.skript1t{
+   width: 70%;
+   color: white;
+}
+.skript1-t{
+   color: white;
+
+}
